@@ -5,8 +5,8 @@ EAPI=7
 
 inherit font
 
-DESCRIPTION="Customized version of Apple's Menlo font, patched by romkatv"
-HOMEPAGE="https://github.com/romkatv/powerlevel10k-media"
+DESCRIPTION="Meslo Nerd Font patched for Powerlevel10k by romkatv"
+HOMEPAGE="https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k"
 SRC_URI="
 	https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf
 	https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf
@@ -17,7 +17,7 @@ SRC_URI="
 LICENSE="Apache-2.0"
 SLOT="0"
 
-KEYWORDS="~amd64 ~x86 live"
+KEYWORDS="~amd64"
 
 FONT_SUFFIX="ttf"
 
